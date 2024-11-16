@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "launch" : "vitest --coverage --coverage.reporter=json-summary --watch=false"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.1.4",
+    "vitest": "^2.1.4"
+  }
 }
